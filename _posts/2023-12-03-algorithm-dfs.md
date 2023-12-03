@@ -12,7 +12,7 @@ permalink: /algorithm/algorithm-dfs/
 toc: true
 toc_sticky: true
 
-date: 2023-12-04
+date: 2023-12-03
 last_modified_at: 2023-12-04
 ---
 
