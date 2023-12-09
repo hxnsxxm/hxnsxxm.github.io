@@ -1,19 +1,19 @@
 ---
 title: "[Java] DFS (Depth-First Search), 깊이 우선 탐색 구현"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
+excerpt: "DFS와 Java 구현 방법을 알아본다."
 
 categories:
   - Algorithm
 tags:
   - [algorithm, dfs]
 
-permalink: /algorithm/algorithm-dfs/
+permalink: /algorithm/dfs/
 
 toc: true
 toc_sticky: true
 
 date: 2023-12-03
-last_modified_at: 2023-12-04
+last_modified_at: 2023-12-09
 ---
 
 ## DFS 
