@@ -1,5 +1,5 @@
 ---
-title: "[Java] DFS (Depth-First Search), 깊이 우선 탐색 구현"
+title: "깊이 우선 탐색(DFS)과 Java 구현 방법"
 excerpt: "DFS와 Java 구현 방법을 알아본다."
 
 categories:
@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2023-12-03
-last_modified_at: 2023-12-09
+last_modified_at: 2023-12-16
 ---
 
 ## DFS 
