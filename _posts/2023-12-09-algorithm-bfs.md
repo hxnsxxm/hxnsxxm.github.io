@@ -1,5 +1,5 @@
 ---
-title: "[Java] BFS (Breadth-First Search), 너비 우선 탐색 구현"
+title: "너비 우선 탐색(BFS)과 Java 구현 방법"
 excerpt: "BFS와 Java 구현 방법을 알아본다."
 
 categories:
@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2023-12-09
-last_modified_at: 2023-12-09
+last_modified_at: 2023-12-16
 ---
 
 ## BFS 
