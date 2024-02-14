@@ -1,9 +1,9 @@
 ---
-title: "Algorithm"
+title: "Study"
 layout: category
-permalink: /categories/algorithm/
+permalink: /categories/study/
 author_profile: true
-taxonomy: Algorithm
+taxonomy: Study
 sidebar:
   nav: "categories"
 ---

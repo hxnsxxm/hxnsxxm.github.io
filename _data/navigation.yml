@@ -19,7 +19,9 @@ main:
 # 2022.02.15 sidebar update : simple ver.
 categories:
   - title: "Algorithm"
-    url: /categories/Algorithm/
+    url: /categories/algorithm/
+  - title: "Study"
+    url: /categories/study/
   # - title: "Categories2"
   #   url: /categories/categories2/
   # - title: "Categories3"
