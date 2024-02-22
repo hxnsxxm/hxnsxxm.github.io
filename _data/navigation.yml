@@ -20,8 +20,8 @@ main:
 categories:
   - title: "Algorithm"
     url: /categories/algorithm/
-  - title: "Study"
-    url: /categories/study/
+  - title: "OOP"
+    url: /categories/oop/
   # - title: "Categories2"
   #   url: /categories/categories2/
   # - title: "Categories3"

@@ -1,9 +1,9 @@
 ---
-title: "Study"
+title: "OOP"
 layout: category
-permalink: /categories/study/
+permalink: /categories/oop/
 author_profile: true
-taxonomy: Study
+taxonomy: OOP
 sidebar:
   nav: "categories"
 ---
