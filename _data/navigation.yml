@@ -31,8 +31,10 @@ categories:
     children:
       - title: "Basic"
         url: /categories/algorithm/basic/
-      - title: "Problems"
-        url: /categories/algorithm/problems/
+      - title: "Programmers"
+        url: /categories/algorithm/programmers/
+      - title: "Baekjoon"
+        url: /categories/algorithm/baekjoon/
 
   - title: "Knowledge"
     children:
