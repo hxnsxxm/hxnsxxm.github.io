@@ -1,9 +1,9 @@
 ---
-title: "Algorithm"
+title: "Knowledge-OOP"
 layout: category
-permalink: /categories/algorithm/
+permalink: /categories/knowledge/oop/
 author_profile: true
-taxonomy: Algorithm
+taxonomy: OOP
 sidebar:
   nav: "categories"
 ---

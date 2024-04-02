@@ -3,11 +3,11 @@ title: "깊이 우선 탐색(DFS)과 Java 구현 방법"
 excerpt: "DFS와 Java 구현 방법을 알아본다."
 
 categories:
-  - Algorithm
+  - Basic
 tags:
   - [algorithm, dfs]
 
-permalink: /algorithm/dfs/
+permalink: /algorithm/basic/dfs/
 
 toc: true
 toc_sticky: true

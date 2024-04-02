@@ -3,11 +3,11 @@ title: "너비 우선 탐색(BFS)과 Java 구현 방법"
 excerpt: "BFS와 Java 구현 방법을 알아본다."
 
 categories:
-  - Algorithm
+  - Basic
 tags:
   - [algorithm, bfs]
 
-permalink: /algorithm/bfs/
+permalink: /algorithm/basic/bfs/
 
 toc: true
 toc_sticky: true

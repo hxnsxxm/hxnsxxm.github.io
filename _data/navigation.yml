@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "Home"
-    url: https://choiiis.github.io/
+    url: https://hxnsxxm.github.io/
 
   - title: "About"
     url: /about/
 
   - title: "GitHub"
-    url: https://github.com/choiiis
+    url: https://github.com/hxnsxxm
 
   # - title: "Projects"
   #   url: /projects/
@@ -17,7 +17,7 @@ main:
 
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
-#categories:
+categories:
 #  - title: "Categories1"
 #    url: /categories/categories1/
 #  - title: "Categories2"
@@ -26,15 +26,15 @@ main:
 #    url: /categories/categories3/
 #  - title: "Categories4"
 #    url: /categories/categories4/
-
-  - title: "Title2"
+  -
+  - title: "Algorithm"
     children:
-      - title: "Categories5"
-        url: /categories/categories5/
-      - title: "Categories6"
-        url: /categories/categories6/
+      - title: "Basic"
+        url: /categories/algorithm/basic/
+      - title: "Problems"
+        url: /categories/algorithm/problems/
 
-  - title: "Title3"
+  - title: "Knowledge"
     children:
-      - title: "Categories7"
-        url: /categories/categories7/
+      - title: "OOP"
+        url: /categories/knowledge/oop/

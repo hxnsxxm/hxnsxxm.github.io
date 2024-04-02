@@ -3,11 +3,11 @@ title: "동적 계획법(DP)과 Java 구현 방법"
 excerpt: "DP와 Java 구현 방법을 알아본다."
 
 categories:
-  - Algorithm
+  - Basic
 tags:
   - [algorithm, dp]
 
-permalink: /algorithm/dp/
+permalink: /algorithm/basic/dp/
 
 toc: true
 toc_sticky: true
