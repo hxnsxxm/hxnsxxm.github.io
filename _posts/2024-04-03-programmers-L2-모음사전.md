@@ -176,7 +176,7 @@ answer += "AEIOU".indexOf(해당 글자) * (offset) + 1;
 
 #### 시간 복잡도
 
-입력 `word`의 길이가 n 일 때, <b>O(m)</b>이다.  
+입력 `word`의 길이가 n 일 때, <b>O(n)</b>이다.  
 
 <br>
 
