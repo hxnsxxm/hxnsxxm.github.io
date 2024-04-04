@@ -1,5 +1,5 @@
 ---
-title: "[Level2] n진수 게임, Java"
+title: "[Level 2] n진수 게임, Java"
 excerpt: "프로그래머스 레벨 2 : n진수 게임 풀이 및 해설"
 
 categories:

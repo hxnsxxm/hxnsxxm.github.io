@@ -1,5 +1,5 @@
 ---
-title: "[Level2] 모음사전, Java"
+title: "[Level 2] 모음사전, Java"
 excerpt: "프로그래머스 레벨 2 : 모음사전 풀이 및 해설"
 
 categories:
