@@ -9,12 +9,6 @@ main:
   - title: "GitHub"
     url: https://github.com/hxnsxxm
 
-  # - title: "Projects"
-  #   url: /projects/
-
-  # - title: "Categories"
-  #   url: /categories/
-
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
@@ -35,8 +29,11 @@ categories:
         url: /categories/algorithm/programmers/
       - title: "Baekjoon"
         url: /categories/algorithm/baekjoon/
-
   - title: "Knowledge"
     children:
       - title: "OOP"
         url: /categories/knowledge/oop/
+  - title: "Develop"
+    children:
+      - title: "Shape-up"
+        url: /categories/develop/shapeup/
