@@ -7,7 +7,7 @@ categories:
 tags:
   - [develop, shapeup]
 
-permalink: /develop/shapeup/flutter와springsecurity연동하여로그인구현
+permalink: /develop/shapeup/flutter와springsecurity연동하여로그인구현01
 
 toc: true
 toc_sticky: true
