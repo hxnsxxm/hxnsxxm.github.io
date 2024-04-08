@@ -1,5 +1,5 @@
 ---
-title: "[회원가입/로그인] 01. Flutter와 Spring Security로 로그인 구현하기 (with JWT)"
+title: "[회원가입/로그인] Flutter와 Spring Security로 로그인 구현하기 - 01 (with JWT)"
 excerpt: "Flutter와 Spring Security로 로그인 구현하고 JWT 발급하기 01"
 
 categories:
@@ -12,8 +12,8 @@ permalink: /develop/shapeup/flutter와springsecurity연동하여로그인구현0
 toc: true
 toc_sticky: true
 
-date: 2024-04-07
-last_modified_at: 2024-04-05
+date: 2024-04-05
+last_modified_at: 2024-04-07
 ---
 
 ## 들어가며
