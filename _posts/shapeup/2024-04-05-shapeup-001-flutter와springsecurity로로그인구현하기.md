@@ -65,9 +65,60 @@ Flutter에서는 SDK로 소셜 로그인 기능을 제공하기 때문에
 
 | 라이브러리 이름        | 버전     | 설명           |
 |-----------------|--------|--------------|
+| java            | 21     |              |
 | spring boot     | 3.2.1  |  |
 | spring security | 6.2.1  |  |
 | jwt             | 0.12.3 |             |
+
+<b>Build.gradle</b>
+
+```java
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.1'
+    id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.seha'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '21'
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    compileOnly 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // jpa
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // H2
+    runtimeOnly 'com.h2database:h2'
+    // Spring Security
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    // JWT
+    implementation 'io.jsonwebtoken:jjwt-api:0.12.3'
+    implementation 'io.jsonwebtoken:jjwt-impl:0.12.3'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.12.3'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+```
 
 <br>
 
@@ -122,12 +173,13 @@ Flutter에서는 SDK로 소셜 로그인 기능을 제공하기 때문에
 
 ### Database : table
 
-| 이름             | 타입     | 설명                        | 필수 |
-|----------------|--------|---------------------------|----|
-| uuid           | String | 회원 구분을 위한 uuid            | O  |
-| social_id      | String | 소셜 로그인 고유 id              | O  |
-| social_provider |   String     | 소셜 로그인 제공하는 곳 (ex. KAKAO) | O  |
-| refresh_token  |   String     | JWT 재발급에 사용함              | O  |
+| 이름              | 타입     | 설명                        | 필수 |
+|-----------------|--------|---------------------------|----|
+| uuid            | String | 회원 구분을 위한 uuid            | O  |
+| role            | String | 사용자/관리자 구분                | O  |
+| social_id       | String | 소셜 로그인 고유 id              | O  |
+| social_provider | String | 소셜 로그인 제공하는 곳 (ex. KAKAO) | O  |
+| refresh_token   | String | JWT 재발급에 사용함              | O  |
 
 <br>
 
