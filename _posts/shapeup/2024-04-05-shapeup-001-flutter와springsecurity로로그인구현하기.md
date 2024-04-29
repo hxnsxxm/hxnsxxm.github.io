@@ -25,9 +25,9 @@ last_modified_at: 2024-04-07
 1. Flutter에서는 로그인 요청만 하고 spring boot에서 OAuth2를 이용해 소셜 로그인을 처리하는 방법
 2. Flutter에서 소셜 로그인 처리를 하고, 관련 유저 정보를 spring boot로 넘겨 token을 반환하는 방법
 
-![001.png](/assets/images/posts_img/shapeup/001.png)
+![001.png](/assets/images/posts_img/shapeup/subject01-01.png)
 
-![002.png](/assets/images/posts_img/shapeup/002.png)
+![002.png](/assets/images/posts_img/shapeup/subject01-02.png)
 
 <br>
 
@@ -140,7 +140,7 @@ tasks.named('test') {
 
 #### 서버 동작
 
-![003.png](/assets/images/posts_img/shapeup/003.png)
+![003.png](/assets/images/posts_img/shapeup/subject01-03.png)
 
 <br>
 
@@ -161,13 +161,13 @@ tasks.named('test') {
 
 #### 서버 동작
 
-![005.png](/assets/images/posts_img/shapeup/005.png)
+![005.png](/assets/images/posts_img/shapeup/subject01-05.png)
 
 <br>
 
 ### 최종 아키텍처(의존 관계)
 
-![004.png](/assets/images/posts_img/shapeup/004.png)
+![004.png](/assets/images/posts_img/shapeup/subject01-04.png)
 
 <br>
 

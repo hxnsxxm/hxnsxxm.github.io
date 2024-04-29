@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2024-04-08
-last_modified_at: 2024-04-08
+last_modified_at: 2024-04-09
 ---
 
 ## 목표
@@ -39,15 +39,59 @@ last_modified_at: 2024-04-08
 
 거기에서 조금 더 추가한 그림을 다시 그려보겠습니다.  
 
-![006.png](../../assets/images/posts_img/shapeup/006.png)
+![006.png](../../assets/images/posts_img/shapeup/subject02-01.png)
 
 <br>
 
 ### 서버 동작
 
-목표로 하는 동작은 아래 그림의 빨간 테두리로 표시한 부분입니다.  
+목표로 하는 동작은 아래 그림의 빨간 테두리로 표시한 부분입니다.
 
-![011.png](../../assets/images/posts_img/shapeup/011.png)
+![011.png](../../assets/images/posts_img/shapeup/subject02-06.png)
+
+#### 요청 본문
+
+| 이름             | 타입     | 설명                      | 필수 |
+|----------------|--------|-------------------------|----|
+| socialId       | String | 소셜 로그인 서비스에서 제공하는 고유 ID | O  |
+| socialProvider | String | 소셜 로그인 서비스              | O  |
+
+<b>요청 예제</b>
+
+```json
+POST http://localhost:8080/auth/v1/social-login
+
+body
+{
+    "socialId": "123456789",
+    "socialProvider": "kakao"
+}
+```
+
+<br>
+
+#### 응답 본문
+
+실제로는 토큰을 반환해야 하지만, 정상적으로 회원 정보가 저장되는지 확인하는 용도로만 데이터를 받겠습니다.  
+
+| 이름             | 타입     | 설명            | 필수 |
+|----------------|--------|---------------|----|
+| uuid           | String |   | O  |
+| role           | String |  | O  |
+| socialId       | String |               | O  |
+| socialProvider | String |               | O  |
+
+<b>응답 예제</b>
+
+```json
+{
+    "uuid" : "3c2001ca-a90d-4783-4023-88v50fbafe2",
+    "role" : "ROLE_USER",
+    "socialId" : "123456789",
+    "socialProvider" : "kakao",
+    "refreshToken" : null
+}
+```
 
 <br>
 
@@ -337,11 +381,11 @@ http://localhost:8080/h2-console
 
 프로젝트 실행 후 위의 경로로 접근하면 다음과 같은 화면이 나옵니다.  
 
-![007.png](../../assets/images/posts_img/shapeup/007.png)
+![007.png](../../assets/images/posts_img/shapeup/subject02-02.png)
 
 Connect를 클릭하면 다음 화면으로 넘어가고 좌측의 `AUTH`를 확인할 수 있습니다.  
 
-![008.png](../../assets/images/posts_img/shapeup/008.png)
+![008.png](../../assets/images/posts_img/shapeup/subject02-03.png)
 
 <br>
 
@@ -357,13 +401,13 @@ body
 }
 ```
 
-![009.png](../../assets/images/posts_img/shapeup/009.png)
+![009.png](../../assets/images/posts_img/shapeup/subject02-04.png)
 
 정상적으로 사용자 정보가 응답 본문으로 반환되는 것을 확인할 수 있습니다.  
 
 또한, h2도 확인해보면 다음과 같습니다.  
 
-![010.png](../../assets/images/posts_img/shapeup/010.png)
+![010.png](../../assets/images/posts_img/shapeup/subject02-05.png)
 
 <br>
 
