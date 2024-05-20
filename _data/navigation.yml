@@ -33,7 +33,7 @@ categories:
     children:
       - title: "OOP"
         url: /categories/knowledge/oop/
-  - title: "Develop"
-    children:
-      - title: "Shape-up"
-        url: /categories/develop/shapeup/
+#  - title: "Develop"
+#    children:
+#      - title: "Shape-up"
+#        url: /categories/develop/shapeup/
